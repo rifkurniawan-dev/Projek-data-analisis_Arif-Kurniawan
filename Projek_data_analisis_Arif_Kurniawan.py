@@ -45,8 +45,8 @@
         "import numpy as np\n",
         "import matplotlib.pyplot as plt\n",
         "import seaborn as sns\n",
-        "import streamlit as st
-        "import streamlit.components as stc
+        "import streamlit as st\n",
+        "import streamlit.components as stc\n"
         
       ],
       "metadata": {
