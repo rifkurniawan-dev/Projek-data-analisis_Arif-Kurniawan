@@ -2914,7 +2914,7 @@
         }
       ]
     }
-  ],
+  },
   "metadata": {
     "colab": {
       "provenance": [],
