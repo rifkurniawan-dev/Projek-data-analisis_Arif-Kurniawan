@@ -2485,8 +2485,8 @@
           "metadata": {}
         }
       ]
-    }, 
- {
+    }
+  {
     "cell_type": "code",
     "source": [
         "weather_avg = df_combined.groupby('weathersit')['cnt'].mean()"  # Menyimpan kode dalam bentuk string
