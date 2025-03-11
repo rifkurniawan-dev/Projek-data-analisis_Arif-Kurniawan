@@ -65,14 +65,14 @@
         "id": "lU7w9aF-nN8l"
       }
     },
-    {
+{
       "cell_type": "markdown",
       "source": [],
       "metadata": {
         "id": "19tpLMNqodb5"
       }
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "#memuat data\n",
