@@ -44,7 +44,9 @@
         "import pandas as pd\n",
         "import numpy as np\n",
         "import matplotlib.pyplot as plt\n",
-        "import seaborn as sns\n"
+        "import seaborn as sns\n",
+        "import streamlit as st\n"
+        
       ],
       "metadata": {
         "id": "3XJf60xunKsL"
