@@ -56,7 +56,7 @@
       "execution_count": 1,
       "outputs": []
     },
-    {
+{
       "cell_type": "markdown",
       "source": [
         "## **Gathering**"
