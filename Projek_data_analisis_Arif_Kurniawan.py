@@ -2466,7 +2466,8 @@
           "base_uri": "https://localhost:8080/",
           "height": 566
         },
-        "collapsed": true,
+       "my_dict": {
+        "collapsed": True,
         "id": "6L4-Z0OIyQVN",
         "outputId": "e4914134-ee05-4482-d171-2c4c5fe917d2"
       },
