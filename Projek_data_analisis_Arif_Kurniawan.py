@@ -40,17 +40,16 @@
   "id": "Ir0wDWvSqVJO"
   }
 },
-    {
-      "cell_type": "code",
-      "source": [
-        "import pandas as pd\n",
-        "import numpy as np\n",
-        "import matplotlib.pyplot as plt\n",
-        "import seaborn as sns\n",
-        "import streamlit as st\n",
-        "import streamlit.components as stc\n"
-        
-      ],
+{
+  "cell_type": "code",
+  "source": [
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import matplotlib.pyplot as plt\n",
+    "import seaborn as sns\n",
+    "import streamlit as st\n",
+    "import streamlit.components as stc\n"
+  ],
       "metadata": {
         "id": "3XJf60xunKsL"
       },
