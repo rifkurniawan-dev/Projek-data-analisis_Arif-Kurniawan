@@ -2486,10 +2486,10 @@
         }
       ]
     }, 
-  {
+ {
     "cell_type": "code",
     "source": [
-       "weather_avg": "df_combined.groupby('weathersit')['cnt'].mean()"
+        "weather_avg = df_combined.groupby('weathersit')['cnt'].mean()"  # Menyimpan kode dalam bentuk string
     ],
     "metadata": {
         "id": "GO7N_K4BNp_s"
