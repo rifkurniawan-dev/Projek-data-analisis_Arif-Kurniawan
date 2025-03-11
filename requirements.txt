@@ -6,4 +6,4 @@ plotly
 pandas
 joblib
 scikit-learn
-pillow
+Pillow
