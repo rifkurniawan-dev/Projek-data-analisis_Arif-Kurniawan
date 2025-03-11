@@ -12,21 +12,20 @@
     }
   ]
 },
-
-    {
-            "cell_type": "markdown",
-            "source": [
-                "# Proyek Analisis Data: E-Commerce public dataset\n",
-                "Nama: Arif Kurniawan\n",
-                "\n",
-                "Email: mc299d5y1908@student.devacademy.id\n",
-                "\n",
-                "ID Dicoding: MC299D5Y1908"
-            ],
-            "metadata": {
-                "id": "poAcHSN6om--"
-            }
-        },
+{
+  "cell_type": "markdown",
+   "source": [
+   "# Proyek Analisis Data: E-Commerce public dataset\n",
+   "Nama: Arif Kurniawan\n",
+   "\n",
+   "Email: mc299d5y1908@student.devacademy.id\n",
+   "\n",
+   "ID Dicoding: MC299D5Y1908"
+   ],
+   "metadata": {
+   "id": "poAcHSN6om--"
+   }
+},
 
 
     {
