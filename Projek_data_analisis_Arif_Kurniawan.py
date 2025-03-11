@@ -12,7 +12,8 @@
     }
   ]
 },
-  "data": [ 
+ "def my_function"():
+    "data" = [  
         {
             "cell_type": "markdown",
             "source": [
@@ -28,6 +29,8 @@
             }
         }
     ],
+
+
     {
       "cell_type": "markdown",
       "source": [
