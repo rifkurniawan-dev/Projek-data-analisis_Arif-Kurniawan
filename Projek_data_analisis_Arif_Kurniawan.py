@@ -10,7 +10,8 @@
         "<a href=\"https://colab.research.google.com/github/rifkurniawan-dev/Projek-data-analisis_Arif-Kurniawan/blob/main/Projek_data_analisis_Arif_Kurniawan.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     }
-  ],
+  ]
+},
     {
       "cell_type": "markdown",
       "source": [
