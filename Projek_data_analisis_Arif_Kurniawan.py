@@ -2488,15 +2488,15 @@
     }, 
   {
     "cell_type": "code",
-      "source": [
+    "source": [
         "weather_avg = df_combined.groupby('weathersit')['cnt'].mean()"
-      ],
-      "metadata": {
+    ],
+    "metadata": {
         "id": "GO7N_K4BNp_s"
-      },
-      "execution_count": 28,
-      "outputs": []
     },
+    "execution_count": 28,
+    "outputs": []
+},
   {
       "cell_type": "code",
       "source": [
