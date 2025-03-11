@@ -875,7 +875,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "markdown",
       "source": [
         "# Assessing **Data**"
@@ -884,7 +884,7 @@
         "id": "UfEIxkRJtAU-"
       }
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "day_df.info()"
@@ -929,7 +929,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "day_df.isna().sum()"
@@ -1063,7 +1063,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "hour_df.info()"
@@ -1109,7 +1109,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "hour_df.isna().sum()"
@@ -1248,7 +1248,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "day_df.describe()"
@@ -1703,7 +1703,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "hour_df.describe()"
@@ -2177,7 +2177,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "markdown",
       "source": [
         "# Cleaning **data**\n"
@@ -2186,7 +2186,7 @@
         "id": "DPhVtPBhvb6D"
       }
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "day_df.drop_duplicates(inplace=True)"
@@ -2197,7 +2197,7 @@
       "execution_count": 11,
       "outputs": []
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "print(\"Jumlah duplikasi: \", day_df.duplicated().sum())\n"
@@ -2220,7 +2220,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "hour_df.drop_duplicates(inplace=True)"
@@ -2231,7 +2231,7 @@
       "execution_count": 13,
       "outputs": []
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "print(\"Jumlah duplikasi: \", hour_df.duplicated().sum())\n"
@@ -2254,7 +2254,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "markdown",
       "source": [
         "# Exploratory Data Analysis (EDA)"
@@ -2263,7 +2263,7 @@
         "id": "0abjwDz_vpEY"
       }
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "# Menyaring kolom yang diperlukan dari day.csv dan hour.csv\n",
@@ -2277,7 +2277,7 @@
       "execution_count": 15,
       "outputs": []
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "\n",
@@ -2291,7 +2291,7 @@
       "execution_count": 17,
       "outputs": []
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "# Menggabungkan data day.csv dan hour.csv berdasarkan 'instant'\n",
@@ -2305,7 +2305,7 @@
       "execution_count": 18,
       "outputs": []
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "df_combined['cnt'] = df_combined['cnt_day'] + df_combined['cnt_hour']\n",
@@ -2333,7 +2333,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "# Statistik deskriptif pada kolom 'cnt' yang menunjukkan jumlah penyewaan sepeda\n",
@@ -2366,7 +2366,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "df_combined['season'] = df_combined['season_day'] + df_combined['season_hour']\n",
@@ -2394,7 +2394,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "season_stats = df_combined.groupby('season')['cnt'].describe()"
@@ -2405,7 +2405,7 @@
       "execution_count": 22,
       "outputs": []
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "df_combined['weathersit'] = df_combined['weathersit_day'] + df_combined['weathersit_hour']\n",
@@ -2418,7 +2418,7 @@
       "execution_count": 23,
       "outputs": []
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "weathersit_stats = df_combined.groupby('weathersit')['cnt'].describe()"
@@ -2429,7 +2429,7 @@
       "execution_count": 24,
       "outputs": []
     },
-    {
+{
       "cell_type": "markdown",
       "source": [
         "# Visualization & Explanatory Analysis"
@@ -2438,7 +2438,7 @@
         "id": "b2HoKbQo3JT8"
       }
     },
-    {
+{
       "cell_type": "code",
       "execution_count": 25,
       "metadata": {
@@ -2450,7 +2450,7 @@
         "season_avg = df_combined.groupby('season')['cnt'].mean()"
       ]
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "# Visualisasi pengaruh musim terhadap jumlah penyewaan sepeda\n",
@@ -2486,7 +2486,7 @@
         }
       ]
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "weather_avg = df_combined.groupby('weathersit')['cnt'].mean()"
@@ -2497,7 +2497,7 @@
       "execution_count": 28,
       "outputs": []
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "# Visualisasi pengaruh cuaca terhadap jumlah penyewaan sepeda\n",
@@ -2531,7 +2531,7 @@
         }
       ]
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "\n",
@@ -2559,7 +2559,7 @@
         }
       ]
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "print(hour_df.columns)"
@@ -2585,14 +2585,14 @@
         }
       ]
     },
-    {
+  {
       "cell_type": "markdown",
       "metadata": {
         "id": "2fhs6GZ4qFMx"
       },
       "source": []
     },
-    {
+  {
       "cell_type": "code",
       "execution_count": 38,
       "metadata": {
@@ -2604,7 +2604,7 @@
         "hour_df_filtered = hour_df[['instant', 'hr', 'season', 'weathersit', 'temp', 'atemp', 'hum', 'windspeed', 'casual', 'registered', 'cnt', 'mnth', 'season']]"
       ]
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "# Menggabungkan data day.csv dengan hour.csv berdasarkan 'instant'\n",
@@ -2633,7 +2633,7 @@
         }
       ]
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "# Korelasi antar kolom numerik yang ada dalam dataset gabungan\n",
@@ -2678,7 +2678,7 @@
         }
       ]
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "# Mengelompokkan data berdasarkan jam ('hr') untuk melihat pola penyewaan sepeda per jam\n",
@@ -2691,7 +2691,7 @@
       "execution_count": 42,
       "outputs": []
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "# Visualisasi penyewaan sepeda per jam\n",
@@ -2726,7 +2726,7 @@
         }
       ]
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "# mengelompokan dan melihat pola penyewaan sepeda per bulan\n",
@@ -2738,7 +2738,7 @@
       "execution_count": 44,
       "outputs": []
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "# Visualisasi penyewaan sepeda per bulan\n",
@@ -2773,7 +2773,7 @@
         }
       ]
     },
-    {
+  {
       "cell_type": "markdown",
       "source": [
         "# Pengembangan Dashboard"
@@ -2782,7 +2782,7 @@
         "id": "WxP52QMTUI0L"
       }
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "import plotly.express as px"
@@ -2793,7 +2793,7 @@
       "execution_count": 46,
       "outputs": []
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "# Visualisasi interaktif untuk pengaruh musim terhadap penyewaan sepeda\n",
@@ -2854,7 +2854,7 @@
         }
       ]
     },
-    {
+  {
       "cell_type": "code",
       "source": [
         "# Visualisasi interaktif untuk pengaruh cuaca terhadap penyewaan sepeda\n",
@@ -2916,7 +2916,7 @@
       ]
     }
   },
- {
+{
   "metadata": {
     "colab": {
       "provenance": [],
