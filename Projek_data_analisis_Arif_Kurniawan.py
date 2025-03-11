@@ -13,7 +13,6 @@
   ]
 },
 
-    data = [
     {
         "cell_type": "markdown",
         "source": [
@@ -27,8 +26,7 @@
         "metadata": {
             "id": "poAcHSN6om--"
         }
-    }
-],
+    },
 
 
     {
