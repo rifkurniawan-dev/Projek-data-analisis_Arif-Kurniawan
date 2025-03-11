@@ -475,7 +475,7 @@
         }
       ]
     },
-    {
+{
       "cell_type": "code",
       "source": [
         "#memuat data\n",
