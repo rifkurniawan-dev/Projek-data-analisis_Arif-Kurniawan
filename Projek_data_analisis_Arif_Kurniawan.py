@@ -2916,8 +2916,7 @@
           "metadata": {}
         }
       ]
-    }
-},
+    },
 {
   "metadata": {
     "colab": {
