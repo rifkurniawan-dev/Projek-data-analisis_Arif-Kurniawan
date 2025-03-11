@@ -26,22 +26,20 @@
    "id": "poAcHSN6om--"
    }
 },
-
-
-    {
-      "cell_type": "markdown",
-      "source": [
-        "# **Pertanyaan**\n",
-        "\n",
-        "\n",
-        "1.   Bagaimana pengaruh musim terhadap jumlah penyewaan sepeda\n",
-        "2.  bagaimana pengaruh cuaca terhadap jumlah penyewaan sepeda\n",
-        "\n"
-      ],
-      "metadata": {
-        "id": "Ir0wDWvSqVJO"
-      }
-    },
+{
+  "cell_type": "markdown",
+  "source": [
+  "# **Pertanyaan**\n",
+  "\n",
+  "\n",
+  "1.   Bagaimana pengaruh musim terhadap jumlah penyewaan sepeda\n",
+  "2.  bagaimana pengaruh cuaca terhadap jumlah penyewaan sepeda\n",
+  "\n"
+  ],
+  "metadata": {
+  "id": "Ir0wDWvSqVJO"
+  }
+},
     {
       "cell_type": "code",
       "source": [
