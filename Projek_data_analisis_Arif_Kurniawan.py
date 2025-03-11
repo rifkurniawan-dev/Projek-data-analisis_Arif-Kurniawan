@@ -12,7 +12,7 @@
     }
   ]
 },
-  "data" : [  # Indentasi yang benar jika ini bagian dari fungsi
+  "data": [ 
         {
             "cell_type": "markdown",
             "source": [
